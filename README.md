@@ -1,15 +1,18 @@
-# babel-plugin-example
+# 用途
 
-Bob **hates** function declarations with a passion (nobody knows why). Bob loves to enforce this on his
-coworkers, he's snuck this plugin into their build system to force his tyrannical code style.
+为你文件内的所有函数（无论函数声明还是函数表达式）都包上一个try catch
 
-## Usage
-
-```sh
-$ npm install babel babel-plugin-example
-$ babel --plugins babel-plugin-example script.js
+``` javascript
+  //before
+  function test1(){
+    console.log("dont be like bob");
+  }
+  //after
+  function test1() {
+  	try {
+  		console.log("dont be like bob");
+  	} catch (e) {
+  		console.log('error')
+  	}
+  }
 ```
-
-# PS.
-
-Please don't be like Bob.
