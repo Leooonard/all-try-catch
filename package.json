@@ -1,0 +1,32 @@
+{
+  "name": "babel-plugin-example",
+  "version": "1.0.0",
+  "dependencies": {
+    "babel-core": "^5.0.0"
+  },
+  "gitHead": "7ab6939cd2f90f1d7728859ae3c136a33d46ed8a",
+  "description": "Bob **hates** function declarations with a passion (nobody knows why). Bob loves to enforce this on his coworkers, he's snuck this plugin into their build system to force his tyrannical code style.",
+  "_id": "babel-plugin-example@1.0.0",
+  "scripts": {},
+  "_shasum": "09fc0a4d4898d49c2d1088a745c01b268157a14d",
+  "_from": "babel-plugin-example@*",
+  "_npmVersion": "2.7.1",
+  "_nodeVersion": "1.6.1",
+  "_npmUser": {
+    "name": "sebmck",
+    "email": "sebmck@gmail.com"
+  },
+  "maintainers": [
+    {
+      "name": "sebmck",
+      "email": "sebmck@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "09fc0a4d4898d49c2d1088a745c01b268157a14d",
+    "tarball": "http://registry.npmjs.org/babel-plugin-example/-/babel-plugin-example-1.0.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "http://registry.npmjs.org/babel-plugin-example/-/babel-plugin-example-1.0.0.tgz",
+  "readme": "ERROR: No README data found!"
+}
